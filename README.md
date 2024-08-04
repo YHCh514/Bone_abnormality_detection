@@ -13,6 +13,6 @@ Please download the checkpoint_2_.pth file from the drive below,
 and put it in $datapath/.
 https://drive.google.com/drive/folders/1frqpYjMYvr7ft8FJFt9NTP_kQ7BKx9bk?usp=sharing
 ======
-HOW TO RUN:
+## HOW TO RUN:
 python inference.py --data $datapath --output $output_file_path
 The out.csv file containing all predictions of testing data will locate in $output_file_path/.
