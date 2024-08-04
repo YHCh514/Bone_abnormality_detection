@@ -14,10 +14,13 @@ and put it in $datapath/.
 https://drive.google.com/drive/folders/1frqpYjMYvr7ft8FJFt9NTP_kQ7BKx9bk?usp=sharing
 ======
 ## HOW TO RUN:
-```bibtex
 model training: 
+```bibtex
+python train.py--data $datapath
 ```
-python train.py--data $datapath<br>
+The model is trained with a pretrained RegnetX, and the trained model parameters is stored in [here](https://drive.google.com/drive/folders/1frqpYjMYvr7ft8FJFt9NTP_kQ7BKx9bk?usp=sharing) <br>
+You can use the trained model to do inference directly.<br>
 model inference: <br>
-python inference.py --data $datapath --output $output_file_path<br>
-The out.csv file containing all predictions of testing data will locate in $output_file_path/.
+```bibtex
+python inference.py --data $datapath --output $output_file_path
+```
