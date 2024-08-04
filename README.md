@@ -1,7 +1,9 @@
 # Bone abnormality detection
 Musculoskeletal disorders (MSD) affect over 1.7 billion people globally. Common MSD include fracture and dislocation. In this project, deep learning is applied to identify bone abnormality from front limb X-ray images. 
 
-Author: Yu-Hsiang Chen
+## Author: 
+
+Yu-Hsiang Chen
 Date:2021/12/1
 =====
 SYNOPSIS:
